@@ -146,6 +146,13 @@ body, html {
     background-color: #9e2843;
 }
 
+.bracket {
+    border : 2px solid whitesmoke;
+    border-collapse : collapse;
+    color : whitesmoke;
+    margin-left: 5%;
+}
+
 .underline {
     text-decoration: underline;
 }
