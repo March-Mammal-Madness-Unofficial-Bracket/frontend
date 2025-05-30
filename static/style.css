@@ -1,3 +1,14 @@
+:root {
+    --mmm-blue: #008c96;
+    --asu-red: #9e2843;
+    --white: whitesmoke;
+    --black: black;
+    --asu-yellow: #FFCB4D;
+    --raisbeck-grey: #6D6E71;
+    --raisbeck-orange: #F7921E;
+    
+}
+
 @keyframes fadeIn {
     0% {
         opacity: 0;
