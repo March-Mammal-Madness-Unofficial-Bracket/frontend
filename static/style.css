@@ -150,7 +150,30 @@ body, html {
     border : 2px solid whitesmoke;
     border-collapse : collapse;
     color : whitesmoke;
+    text-align: center;
+    flex-wrap: wrap;
+    width: 150px;
+    height: 40px;
     margin-left: 5%;
+}
+
+.bracket-spacing {
+    width: 150px;
+    height: 40px;
+}
+
+.bracket-top-down {
+    border-top : 2px solid whitesmoke;
+    border-right : 2px solid whitesmoke;
+    width: 60px;
+    height: 40px;
+}
+
+.bracket-bottom-up {
+    border-bottom : 2px solid whitesmoke;
+    border-right : 2px solid whitesmoke;
+    width: 60px;
+    height: 40px;
 }
 
 .underline {
