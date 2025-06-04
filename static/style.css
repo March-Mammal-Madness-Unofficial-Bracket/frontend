@@ -22,6 +22,7 @@ body, html {
     overflow-x: hidden;
     background-color: black;
     font-family: Calibri !important;
+    color: whitesmoke;
 }
 .title {
     animation: fadeIn ease 1.5s;
