@@ -1,3 +1,14 @@
+:root {
+    --mmm-blue: #008c96;
+    --asu-red: #9e2843;
+    --white: whitesmoke;
+    --black: black;
+    --asu-yellow: #FFCB4D;
+    --raisbeck-grey: #6D6E71;
+    --raisbeck-orange: #F7921E;
+    
+}
+
 @keyframes fadeIn {
     0% {
         opacity: 0;
@@ -133,6 +144,36 @@ body, html {
     color: whitesmoke;
     border: 3px solid rgb(113, 14, 19); 
     background-color: #9e2843;
+}
+
+.bracket {
+    border : 2px solid whitesmoke;
+    border-collapse : collapse;
+    color : whitesmoke;
+    text-align: center;
+    flex-wrap: wrap;
+    width: 150px;
+    height: 40px;
+    margin-left: 5%;
+}
+
+.bracket-spacing {
+    width: 150px;
+    height: 40px;
+}
+
+.bracket-top-down {
+    border-top : 2px solid whitesmoke;
+    border-right : 2px solid whitesmoke;
+    width: 60px;
+    height: 40px;
+}
+
+.bracket-bottom-up {
+    border-bottom : 2px solid whitesmoke;
+    border-right : 2px solid whitesmoke;
+    width: 60px;
+    height: 40px;
 }
 
 .underline {
