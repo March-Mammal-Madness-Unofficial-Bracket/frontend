@@ -17,6 +17,8 @@
         <p class="results-button"><b>Results</b></p>
         <p class="support-button"><b>Support</b></p>
         <p class="admin-button"><b>Admin</b></p>
+        <p class="proposal-button"><b>Proposal</b></p>
+            
             <!--=
             Use css elements from style.css, use <b> to bold <i> to italic etc -->
             
@@ -35,6 +37,10 @@
             window.open('https://libguides.asu.edu/MarchMammalMadness');
         })
 
+        const proposal = document.querySelector('.proposal-button')
+        proposal.addEventListener('click', ()=>{
+            window.open('bracket.html');
+        })
         const bracket = document.querySelector('.bracket-button')
         bracket.addEventListener('click', ()=>{
             window.open('bracket.html');
