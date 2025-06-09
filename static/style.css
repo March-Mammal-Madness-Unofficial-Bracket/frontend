@@ -163,22 +163,41 @@ body, html {
     height: 10px;
 }
 
-.bracket-top-down {
+.bracket-top-down-right {
     border-top : 2px solid whitesmoke;
     border-right : 2px solid whitesmoke;
     width: 100px;
     height: 30px;
 }
 
-.bracket-bottom-up {
+.bracket-bottom-up-right {
     border-bottom : 2px solid whitesmoke;
     border-right : 2px solid whitesmoke;
     width: 100px;
     height: 30px;
 }
 
+.bracket-top-down-left {
+    border-top : 2px solid whitesmoke;
+    border-left : 2px solid whitesmoke;
+    width: 100px;
+    height: 30px;
+}
+
+.bracket-bottom-up-left {
+    border-bottom : 2px solid whitesmoke;
+    border-left : 2px solid whitesmoke;
+    width: 100px;
+    height: 30px;
+}
+
 .bracket-right-only {
     border-right : 2px solid whitesmoke;
+    width: 100px;
+    height: 10px;
+}
+.bracket-left-only {
+    border-left : 2px solid whitesmoke;
     width: 100px;
     height: 10px;
 }
