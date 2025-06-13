@@ -18,7 +18,10 @@ app.use(cors());
 
 const response = await fetch("backend.swiboe.org", { //additional port info unecessary
   method: "POST",
-  body: JSON.stringify({ username: "example" }),
+  headers: {
+    "Content-Type": "application/json",
+  },
+  body: JSON.stringify({ username: "example" })
   //(working)
 });
 
