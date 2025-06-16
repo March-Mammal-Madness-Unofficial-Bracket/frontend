@@ -153,13 +153,14 @@ body, html {
     color : whitesmoke;
     text-align: center;
     flex-wrap: wrap;
-    width: 150px;
+    width: 9vmin;
     height: 30px;
     margin-left: 5%;
+    margin-right: 5%;
 }
 
 .bracket-spacing {
-    width: 100px;
+    width: 9vmin;
     height: 10px;
 }
 
